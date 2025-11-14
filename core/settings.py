@@ -46,7 +46,6 @@ INSTALLED_APPS = [
     'rest_framework',
     
     'api', #* Custom API app
-    'frontend', #* Custom Frontend app
 ]
 
 REST_FRAMEWORK = {
@@ -131,7 +130,6 @@ TIME_ZONE = 'America/Sao_Paulo'
 USE_I18N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
