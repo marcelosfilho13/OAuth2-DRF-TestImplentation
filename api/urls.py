@@ -1,8 +1,6 @@
-from django.urls import path, include
+from django.urls import path
+from .views import ExampleAPIView
 
-'''
 urlpatterns = [
-    #! Define your API endpoints here
-    path('example/', include('api.example_urls')),
+    path('example/', ExampleAPIView.as_view(), name='example-api'),
 ]
-'''
